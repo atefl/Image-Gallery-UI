@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    color: forestgreen;
+    margin: 30px auto;
+}
+.gallery {
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 230px;
+    height: 200px;
+    padding: 8px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.gallery img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
